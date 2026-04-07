@@ -1,6 +1,5 @@
 // Función que recibe un correo electrónico como texto
 function validarEmail(email) {
-
   // Verifica que el correo tenga el símbolo "@"
   // Si no lo tiene, no puede ser un email válido
   if (!email.includes("@")) {
